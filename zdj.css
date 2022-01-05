@@ -1,0 +1,46 @@
+.kropcia{
+    font-size: 90%;
+    color: brown;
+    position: relative;
+    top: 600px;
+}
+
+small{
+    font-size: 20px;
+    color: rgb(167, 73, 6);
+    position: relative;
+    top: 600px;
+}
+
+h1{
+    color: darkslateblue;
+    text-transform: uppercase;
+    background-color: floralwhite;
+    width: 40%;
+    text-align: center;
+}
+
+.zdj1{
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 25%;
+    height: 25%;
+}
+
+.zdj2{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 100px;
+}
+
+.corwin{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    bottom: 100px;
+}
+
+body{
+    background-color: rgb(227, 227, 255) ;
+}
