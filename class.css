@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+#testy{
+    background-color: azure;
+    width: 45%;
+    height: 500px;
+    padding: 5px;
+    position: relative;
+    left: 70px;
+    border: 4px black solid;
+}
+
+#testy h2{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+#testy ul{
+    font-size: 30px;
+}
+
+body{
+    background-image: url(http://www.thekingshighway.ca/IMAGES/hwy7A_old.gif);
+}
+
+.header .content{
+    color: darkblue;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    padding: 1px;
+    background-color: rgb(162, 168, 250);
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+.header p{
+    font-size: 25px;
+    text-decoration: underline;
+    position: relative;
+    bottom: 20px;
+}
+
+/* Menu */
+/*Pierwsza sekcja*/
+
+.menue{
+    background-color: darkslategrey;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    bottom: 35px;
+    border: 2px solid black;
+}
+
+@keyframes left-to-right{
+    20%{
+        background-color: rgb(224, 196, 250);
+        transform: translateX(3.5%);
+    }
+
+    40%{
+        background-color: #c892fa;
+        transform: translateX(-3.5%);
+    }
+
+    60%{
+        background-color: rgb(186, 114, 253);
+        transform: translateX(2%);
+    }
+
+    80%{
+        background-color: rgb(156, 50, 255);
+        transform: translateX(-2%);
+    }
+}
+
+.first_button{
+    color: cornsilk;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: blueviolet;
+    animation: left-to-right infinite alternate 7.5s;
+}
+
+.first_button:hover{
+    width: 120px;
+    background-color: thistle;
+    animation-play-state: paused;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 60px;
+}
+
+.second_button{
+    background-color: blueviolet;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    color: white;
+    width: 100px;
+    height: 60px;
+    animation: left-to-right infinite alternate 7.5s;
+}
+
+.second_button:hover{
+    background-color: thistle;
+    width: 120px;
+    animation-play-state: paused;
+}
+
+.third_button{
+    background-color: blueviolet;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    color: white;
+    animation: left-to-right infinite alternate 7.5s;
+}
+
+.third_button:hover{
+    background-color: thistle;
+    width: 120px;
+    animation-play-state: paused;
+}
+
+.contactbtn{
+    background-color: blueviolet;
+    width: 100px;
+    height: 60px;
+    color: white;
+    position: relative;
+    left: 125px;
+    top: 10px;
+    animation: left-to-right infinite alternate 7.5s;
+}
+
+.contactbtn:hover{
+    background-color:thistle ;
+    width: 120px;
+    animation-play-state: paused;
+}
+
+
+
+
